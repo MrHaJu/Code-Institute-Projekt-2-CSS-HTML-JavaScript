@@ -119,6 +119,7 @@ function selectAnswer(e){
     const isCorrect = selectedBtn.dataset.correct === "true";
     if(isCorrect){
         selectedBtn.classList.add("correct");
+        score++;
          }else{
          selectedBtn.classList.add("wrong");
          }
@@ -130,4 +131,7 @@ function selectAnswer(e){
          });
          nextButton.style.display = "block";
 }
+
+
+
 startQuiz();
