@@ -31,3 +31,10 @@ body {
 .quiz {
     padding: 20% 0;
 }
+
+.quiz h2 {
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+
+}
