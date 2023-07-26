@@ -1,56 +1,75 @@
 const questions = [
     {
-        question:"",
+        question:"Was ist die Hauptstadt von Deutschland?",
         answers:[
-            { text:"", correct: false}
-            { text:"", correct: false}
-            { text:"", correct: true}
-            { text:"", correct: false}
+            { text:"Berlin", correct: true},
+            { text:"München", correct: false},
+            { text:"Hamburg", correct: false},
+            { text:"Frankfurt", correct: false},
                 ]
     },
     {
-        question:"",
+        question:"Welcher Planet ist der größte in unserem Sonnensystem?",
         answers:[
-            { text:"", correct: false}
-            { text:"", correct: false}
-            { text:"", correct: true}
-            { text:"", correct: false}
+            { text:"Mars", correct: false},
+            { text:"Venus", correct: false},
+            { text:"Jupiter", correct: true},
+            { text:"Saturn", correct: false},
                 ]
     },
     {
-        question:"",
+        question:"Wer schrieb das Drama "Romeo und Julia"?",
         answers:[
-            { text:"", correct: false}
-            { text:"", correct: false}
-            { text:"", correct: true}
-            { text:"", correct: false}
+            { text:"Charles Dickens", correct: false},
+            { text:"William Shakespeare", correct: true},
+            { text:"Jane Austen", correct: false},
+            { text:"Leo Tolstoi", correct: false},
                 ]
     },
     {
-        question:"",
+        question:"Wie viele Kontinente gibt es auf der Erde?",
         answers:[
-            { text:"", correct: false}
-            { text:"", correct: false}
-            { text:"", correct: true}
-            { text:"", correct: false}
+            { text:"3", correct: false},
+            { text:"6", correct: false},
+            { text:"7", correct: true},
+            { text:"5", correct: false},
                 ]
     },
     {
-        question:"",
+        question:"Welches ist das chemische Symbol für Wasser?",
         answers:[
-            { text:"", correct: false}
-            { text:"", correct: false}
-            { text:"", correct: true}
-            { text:"", correct: false}
+            { text:"Wo", correct: false},
+            { text:"Wa", correct: false},
+            { text:"We", correct: false},
+            { text:"H2O", correct: true},
                 ]
     },
     {
-        question:"",
+        question:"Wer malte die berühmte Mona Lisa?",
         answers:[
-            { text:"", correct: false}
-            { text:"", correct: false}
-            { text:"", correct: true}
-            { text:"", correct: false}
+            { text:"Vincent van Gogh", correct: false},
+            { text:"Leonardo da Vinci", correct: true},
+            { text:" Pablo Picasso", correct: false},
+            { text:"Michelangelo", correct: false},
+                ]
+    },
+    {
+        question:"Welche ist die längste Schlange der Welt?",
+        answers:[
+            { text:"Königskobra", correct: false},
+            { text:"Boa constrictor", correct: false},
+            { text:" Schwarze Mamba", correct: false},
+            { text:"Anakonda", correct: true},
+            
+                ]
+    },
+    {
+        question:"Was ist die Hauptfarbe der Flagge der Vereinigten Staaten von Amerika?",
+        answers:[
+            { text:"Rot", correct: false},
+            { text:"Blau", correct: false},
+            { text:"Weiß", correct: true},
+            { text:"Grün", correct: false},
                 ]
     },
 ];
