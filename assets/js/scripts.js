@@ -18,7 +18,7 @@ const questions = [
                 ]
     },
     {
-        question:"Wer schrieb das Drama "Romeo und Julia"?",
+        question:"Wer schrieb das Drama 'Romeo und Julia'?",
         answers:[
             { text:"Charles Dickens", correct: false},
             { text:"William Shakespeare", correct: true},
@@ -97,17 +97,17 @@ function showQuestion() {
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
-        button.classLiost.add("btn");
-        answerButton.appendChild(button);
+        button.classList.add("btn");
+        answerButtons.appendChild(button);
 
-    })
+    });
 }
 
-function resetState() {
+function resetState(){
     nextButton.style.display = "none";
-while(answerButtons.firstChild() {
+while(answerButtons.firstChild) {
     answerButtons.removeChild(answerButtons.firstChild);
-})
+    }
 }
 
 startQuiz();
