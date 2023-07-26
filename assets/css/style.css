@@ -53,7 +53,7 @@ body {
     color: var(--textcolor);
     font-weight: 500;
     width: 100%;
-    border: 1px solid #222;
+    border: 1px solid var(--textcolor);
     padding: 10px;
     margin: 10px 0;
     text-align: left;
@@ -65,4 +65,17 @@ body {
 .btn:hover {
     background: var(--contrastcolor);
     color: var(--contrasttext);
+}
+
+#next-btn {
+    background: var(--buttoncolor);
+    color: var(--textcolor);
+    font-weight: 500;
+    width: 150px;
+    border: 1px solid var(--textcolor);
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
 }
