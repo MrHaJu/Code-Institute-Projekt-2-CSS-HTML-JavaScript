@@ -79,6 +79,8 @@ function showQuestion() {
         button.innerHTML = answer.text;
         button.classLiost.add("btn");
         answerButton.appendChild(button);
-        
+
     })
 }
+
+startQuiz();
