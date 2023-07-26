@@ -79,3 +79,10 @@ body {
     cursor: pointer;
     display: none;
 }
+.correct{
+    background: #9aeabc;
+
+}
+.wrong{
+    background: #f8d7da;
+}
