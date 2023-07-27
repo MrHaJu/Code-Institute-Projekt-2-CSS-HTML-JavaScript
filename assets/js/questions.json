@@ -1,5 +1,4 @@
-{
-"questions": [
+[
     {
         "question":"Was ist die Hauptstadt von Deutschland?",
         "answers": [
@@ -282,4 +281,3 @@
     
 
 ]
-}
