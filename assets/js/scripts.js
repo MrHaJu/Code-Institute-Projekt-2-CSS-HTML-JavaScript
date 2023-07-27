@@ -1,4 +1,4 @@
-
+/*
 // Constant for all Questions
 const questions = [
     {
@@ -273,7 +273,7 @@ const questions = [
         ]
     },
     
-];
+];*/
 // Sets Constants for Buttons and Questions
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -283,6 +283,19 @@ const maxQuestions = 10;
 //Start Score and Question Index
 let currentQuestionIndex = 0;
 let score = 0;
+let questions = [];
+
+//function to load the questions
+async function loadQuestions() {
+    try {
+        const response = await fetch("assets/js/questions.json");
+        questions = await response.json();
+        shuffleQuestions();
+        showQuestion();
+    } catch (error) {
+        console.error("Fehler beim Laden der Fragen:", error);
+    }
+}
 
 function shuffleQuestions() {    
     questions.sort(() => Math.random() - 0.5);
@@ -294,8 +307,7 @@ function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
-    shuffleQuestions();
-    showQuestion();
+    loadQuestions();
 }
 // Showes the Question in the App
 function showQuestion() {
@@ -370,4 +382,6 @@ nextButton.addEventListener("click", ()=> {
 );
 
 //Triggers the Function to Start the Quiz
+window.onload= function () {
 startQuiz();
+};
