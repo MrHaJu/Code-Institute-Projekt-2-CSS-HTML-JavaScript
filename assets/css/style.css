@@ -6,7 +6,7 @@
     --buttoncolor:#8C93A8;
     --contrastcolor:#62466B;
     --contrasttext: #fff;
-    --correct: #9aeabc;
+    --correct: #368841;
     --wrong: #f8d7da;
 }
 * {
@@ -18,7 +18,11 @@
 
 body {
     background: var(--bgcolor);
-
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .app {
@@ -28,11 +32,11 @@ body {
     margin: 100px auto 0;
     border-radius: 10px;
     padding: 30px;
-    
 }
 
 .app h1 {
     font-size: 25px;
+    text-align: center;
     color: var(--textcolor);
     font-weight: 600;
     border-bottom: 1px solid var(--textcolor);
@@ -45,6 +49,7 @@ body {
 
 .quiz h2 {
     font-size: 18px;
+    text-align: center;
     color: var(--textcolor);
     font-weight: 600;
 
@@ -103,4 +108,43 @@ body {
 }
 .wrong{
     background: var(--wrong);
+}
+
+#Username {
+    text-align: center;
+    font-size: 15px;
+    color: var(--textcolor);
+    font-weight: 600;    
+    margin: 100px auto;
+    padding: 10px;
+    align-self: center;
+}
+
+#player {
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid var(--textcolor);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px auto 0;
+    
+}
+
+#startbtn {
+    
+    background: var(--buttoncolor);
+    color: var(--textcolor);
+    font-weight: 500;
+    width: 150px;
+    border: 1px solid var(--textcolor);
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+
+#startbtn:hover {
+    background: var(--contrastcolor);
+    transition: all 0.8s;
 }
