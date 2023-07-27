@@ -7,6 +7,7 @@ function getPlayerName() {
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const beendenButton = document.getElementById("beenden");
 const maxQuestions = 10;
 
 //Start Score and Question Index
@@ -86,11 +87,14 @@ function selectAnswer(e){
 }
 //Showes the Score at the End of the Game
 function showScore(){
-    const playerName = getPlayerName(); // Den gespeicherten Spielername abrufen
+    const playerName = getPlayerName(); // Call local saved Player Name
     resetState();
     questionElement.innerHTML = `${playerName}, du hast ${score} von ${maxQuestions} richtig!`;
     nextButton.innerHTML = "Nochmal spielen";
-    nextButton.style.display = "block"
+    nextButton.style.display = "block";
+    beenden.innerHTML = "Spiel beenden";
+    beenden.style.display = "block";
+    handlebeendenButton();
 }
 // activates the Next Button after you choose any Answer
 function handleNextButton() {
@@ -101,6 +105,13 @@ function handleNextButton() {
         showScore();
     }
 }
+
+function handlebeendenButton(){
+    beendenButton.addEventListener("click", function() {
+        window.location.href = "index.html";
+      });
+}
+
 // Goes to the next Question if you click the Next Button
 nextButton.addEventListener("click", ()=> {
     if(currentQuestionIndex < maxQuestions){
