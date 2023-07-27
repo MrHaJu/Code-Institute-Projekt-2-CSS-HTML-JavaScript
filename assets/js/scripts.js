@@ -1,4 +1,8 @@
 
+// Imports Player Name from index.js
+function getPlayerName() {
+    return localStorage.getItem("playerName");
+}
 // Sets Constants for Buttons and Questions
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -82,8 +86,9 @@ function selectAnswer(e){
 }
 //Showes the Score at the End of the Game
 function showScore(){
+    const playerName = getPlayerName(); // Den gespeicherten Spielername abrufen
     resetState();
-    questionElement.innerHTML = `Du hast ${score} von ${maxQuestions} richtig!`;
+    questionElement.innerHTML = `${playerName}, du hast ${score} von ${maxQuestions} richtig!`;
     nextButton.innerHTML = "Nochmal spielen";
     nextButton.style.display = "block"
 }
