@@ -109,7 +109,7 @@ function handleNextButton() {
 function handlebeendenButton(){
     beendenButton.addEventListener("click", function() {
         window.location.href = "index.html";
-      });
+    });
 }
 
 // Goes to the next Question if you click the Next Button
