@@ -148,3 +148,16 @@ body {
     background: var(--contrastcolor);
     transition: all 0.8s;
 }
+
+.button {
+    background: var(--buttoncolor);
+    color: var(--textcolor);
+    font-weight: 500;
+    width: 150px;
+    border: 1px solid var(--textcolor);
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
