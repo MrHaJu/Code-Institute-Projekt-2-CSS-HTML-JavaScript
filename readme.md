@@ -88,10 +88,115 @@ The Website uses a palette of warm pastel colors. The colour palette was display
 
 ### Typography
 
-Google Fonts was used for the following fonts:
+As fonts were used:
 
-* Josefin Sans is used on the site. It is a serif font.
+* Verdana
+* Geneva
+* Tahoma
 
 ### Imagery
 
 All images used are created by myself.
+
+### Features
+
+The website is comprised of three pages. (home page, quiz page and Instruction page).
+
+* All Pages on the website are fully responsible for best Userexperience on all Devices.
+
+* Home Page.
+  * A Input Field to insert a Player Name.
+  * A Start Button.
+  * A Button to visit the Instruction Page.
+
+* Quiz Page
+  * 10 random Questions with 4 Answers.
+  * One of the 4 Answers is correct. 
+  * A Next Button which appears after you have choosen a Answer.
+  * A Score board with Player Name and Score out of 10 questions.
+  * A End Game button to skip back to the Homepage.
+  * A Play again button to restart the Quiz.
+  
+
+* Instruction Page. 
+
+  * A description on how to use the Quiz game.
+  * A Back Button to head back to the Homepage.
+
+
+* Future Implementations.
+  * Levels (easy, medium, hard)
+  * A board that shows how many Questions are left, how many right and how many wrong Answers you gave.
+  
+### Accessibility
+
+When writing the code, I tried to make the website as user-friendly and clear as possible. I have achieved this by:
+
+* Using semantic HTML.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+
+- - -
+
+## Technologies Used
+
+### Languages Used
+
+HTML, CSS and Java Script were used to create this website.
+
+### Frameworks, Libraries & Programs Used
+
+Git - For version control.
+
+Github - To save and store the files for the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+- - -
+
+## Deployment & Local Development
+
+### Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, Code-Institute-Projekt-2-CSS-HTML-JavaScript.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+### Local Development
+
+#### How to Clone
+
+To clone the Code-Institute-Projekt-2-CSS-HTML-JavaScript repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, MrHaJu/Code-Institute-Projekt-2-CSS-HTML-JavaScript.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+- - -
+
+## **Testing**
+
+Please view the [testing.md](testing.md) file for more information on the testing undertaken.
+
+- - -
+
+## Credits
+
+### Code Used
+
+* [Code from Bito VSC extension to find Bugs and Explain how code works](https://marketplace.visualstudio.com/items?itemName=Bito.Bito)
+
+
+### Content
+
+Content of the website was written by the owner (Andreas Huppertz)
+
+### Acknowledgments
+
+* [Jubril Akolade](https://github.com/Jubrillionaire), my Code Institute Mentor.
