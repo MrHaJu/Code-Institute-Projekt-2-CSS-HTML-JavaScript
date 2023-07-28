@@ -170,3 +170,7 @@ body {
     cursor: pointer;
     display: block;
 }
+.button:hover {
+    background: var(--contrastcolor);
+    transition: all 0.8s;
+}
