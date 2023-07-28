@@ -131,12 +131,18 @@ body {
 
 #player {
     text-align: center;
+    background: rgba( 255, 255, 255, 0.5);
     font-weight: 500;
     border: 1px solid var(--textcolor);
     border-radius: 4px;
     padding: 5px;
     margin: 20px auto 0;
     
+}
+
+#player:hover {
+    background: rgba( 255, 255, 255, 1.0);
+    transition: all 0.8s;
 }
 
 #startbtn {
