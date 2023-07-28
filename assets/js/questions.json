@@ -1,283 +1,902 @@
 [
-    {
-        "question":"Was ist die Hauptstadt von Deutschland?",
-        "answers": [
-            { "text": "Berlin", "correct": true},
-            { "text": "München", "correct": false},
-            { "text": "Hamburg", "correct": false},
-            { "text": "Frankfurt", "correct": false}
-                ]
-    },
-    {
-        "question": "Welcher Planet ist der größte in unserem Sonnensystem?",
-        "answers": [
-            {"text": "Mars", "correct": false},
-            {"text": "Venus", "correct": false},
-            {"text": "Jupiter", "correct": true},
-            {"text": "Saturn", "correct": false}
-        ]
-    },
-    {
-        "question": "Wer schrieb das Drama 'Romeo und Julia'?",
-        "answers": [
-            {"text": "William Shakespeare", "correct": true},
-            {"text": "Charles Dickens", "correct": false},
-            {"text": "Jane Austen", "correct": false},
-            {"text": "Leo Tolstoi", "correct": false}
-        ]
-    },
-    {
-        "question": "Wie viele Kontinente gibt es auf der Erde?",
-        "answers": [
-            {"text": "3", "correct": false},
-            {"text": "6", "correct": false},
-            {"text": "7", "correct": true},
-            {"text": "5", "correct": false}
-        ]
-    },
-    {
-        "question": "Welches ist das chemische Symbol für Wasser?",
-        "answers": [
-            {"text": "Wo", "correct": false},
-            {"text": "Wa", "correct": false},
-            {"text": "H2O", "correct": true},
-            {"text": "We", "correct": false}
-        ]
-    },
-    {
-        "question": "Wer malte die berühmte Mona Lisa?",
-        "answers": [
-            {"text": "Vincent van Gogh", "correct": false},
-            {"text": "Leonardo da Vinci", "correct": true},
-            {"text": "Pablo Picasso", "correct": false},
-            {"text": "Michelangelo", "correct": false}
-        ]
-    },
-    {
-        "question": "Welche ist die längste Schlange der Welt?",
-        "answers": [
-            {"text": "Königskobra", "correct": false},
-            {"text": "Anakonda", "correct": true},
-            {"text": "Boa constrictor", "correct": false},
-            {"text": "Schwarze Mamba", "correct": false}
-        ]
-    },
-    {
-        "question": "Was ist die Hauptfarbe der Flagge der Vereinigten Staaten von Amerika?",
-        "answers": [
-            {"text": "Rot", "correct": false},
-            {"text": "Blau", "correct": false},
-            {"text": "Weiß", "correct": true},
-            {"text": "Grün", "correct": false}
-        ]
-    },
-    {
-        "question": "Wer schrieb das berühmte Drama 'Hamlet'?",
-        "answers": [
-            {"text": "William Shakespeare", "correct": true},
-            {"text": "Charles Dickens", "correct": false},
-            {"text": "Jane Austen", "correct": false},
-            {"text": "Mark Twain", "correct": false}
-        ]
-    },
-    {
-        "question": "Welches ist das längste Fluss der Welt?",
-        "answers": [
-            {"text": "Nil", "correct": false},
-            {"text": "Amazonas", "correct": true},
-            {"text": "Mississippi", "correct": false},
-            {"text": "Donau", "correct": false}
-        ]
-    },
-    {
-        "question": "Wie viele Spieler hat eine Fußballmannschaft auf dem Feld?",
-        "answers": [
-            {"text": "9", "correct": false},
-            {"text": "10", "correct": false},
-            {"text": "11", "correct": true},
-            {"text": "12", "correct": false}
-        ]
-    },
-    {
-        "question": "Welche chemische Element hat das Symbol 'Fe'?",
-        "answers": [
-            {"text": "Silber", "correct": false},
-            {"text": "Eisen", "correct": true},
-            {"text": "Fluor", "correct": false},
-            {"text": "Gold", "correct": false}
-        ]
-    },
-    {
-        "question": "Wie viele Beine hat ein Insekt normalerweise?",
-        "answers": [
-            {"text": "4", "correct": false},
-            {"text": "6", "correct": true},
-            {"text": "8", "correct": false},
-            {"text": "10", "correct": false}
-        ]
-    },
-    {
-        "question": "Welches ist das größte Land der Welt (nach Landfläche)?",
-        "answers": [
-            {"text": "China", "correct": false},
-            {"text": "Russland", "correct": true},
-            {"text": "Kanada", "correct": false},
-            {"text": "Indien", "correct": false}
-        ]
-    },
-    {
-        "question": "Welche Farbe hat die Haut von Elefanten normalerweise?",
-        "answers": [
-            {"text": "Grau", "correct": true},
-            {"text": "Braun", "correct": false},
-            {"text": "Schwarz", "correct": false},
-            {"text": "Weiß", "correct": false}
-        ]
-    },
-    {
-        "question": "Wer schrieb das Buch 'Harry Potter und der Stein der Weisen'?",
-        "answers": [
-            {"text": "J.K. Rowling", "correct": true},
-            {"text": "J.R.R. Tolkien", "correct": false},
-            {"text": "George Orwell", "correct": false},
-            {"text": "Stephen King", "correct": false}
-        ]
-    },
-    {
-        "question": "Welcher Planet wird auch als 'Der Rote Planet' bezeichnet?",
-        "answers": [
-            {"text": "Mars", "correct": true},
-            {"text": "Venus", "correct": false},
-            {"text": "Jupiter", "correct": false},
-            {"text": "Saturn", "correct": false}
-        ]
-    },
-    {
-        "question": "Welche berühmte Malerei ist bekannt für ihr geheimnisvolles Lächeln?",
-        "answers": [
-            {"text": "Die Schrei", "correct": false},
-            {"text": "Das letzte Abendmahl", "correct": false},
-            {"text": "Die Erschaffung Adams", "correct": false},
-            {"text": "Mona Lisa", "correct": true}
-        ]
-    },
-    {
-        "question": "Welche berühmte Malerei ist bekannt für ihr geheimnisvolles Lächeln?",
-        "answers": [
-            {"text": "Die Schrei", "correct": false},
-            {"text": "Das letzte Abendmahl", "correct": false},
-            {"text": "Die Erschaffung Adams", "correct": false},
-            {"text": "Mona Lisa", "correct": true}
-        ]
-    },
-    {
-        "question": "Wie viele Kontinente haben keine permanenten Einwohner?",
-        "answers": [
-            {"text": "1", "correct": false},
-            {"text": "2", "correct": false},
-            {"text": "3", "correct": true},
-            {"text": "4", "correct": false}
-        ]
-    },
-    {
-        "question": "Was ist die chemische Formel für Sauerstoff?",
-        "answers": [
-            {"text": "So", "correct": false},
-            {"text": "Su", "correct": false},
-            {"text": "O2", "correct": true},
-            {"text": "Sa", "correct": false}
-        ]
-    },
-    {
-        "question": "Wie nennt man die kleinste Einheit eines Elements?",
-        "answers": [
-            {"text": "Molekül", "correct": false},
-            {"text": "Atom", "correct": true},
-            {"text": "Verbindung", "correct": false},
-            {"text": "Isotop", "correct": false}
-        ]
-    },
-    {
-        "question": "Welches Tier ist das größte auf der Erde?",
-        "answers": [
-            {"text": "Blauwal", "correct": true},
-            {"text": "Elefant", "correct": false},
-            {"text": "Giraffe", "correct": false},
-            {"text": "Gorilla", "correct": false}
-        ]
-    },
-    {
-        "question": "Wer schrieb das berühmte Buch 'Der kleine Prinz'?",
-        "answers": [
-            {"text": "Antoine de Saint-Exupéry", "correct": true},
-            {"text": "F. Scott Fitzgerald", "correct": false},
-            {"text": "Ernest Hemingway", "correct": false},
-            {"text": "Jane Austen", "correct": false}
-        ]
-    },
-    {
-        "question": "Was ist die Hauptstadt von Japan?",
-        "answers": [
-            {"text": "Tokio", "correct": true},
-            {"text": "Peking", "correct": false},
-            {"text": "Seoul", "correct": false},
-            {"text": "Bangkok", "correct": false}
-        ]
-    },
-    {
-        "question": "Welcher Planet ist der sonnennächste in unserem Sonnensystem?",
-        "answers": [
-            {"text": "Mars", "correct": false},
-            {"text": "Venus", "correct": false},
-            {"text": "Merkur", "correct": true},
-            {"text": "Jupiter", "correct": false}
-        ]
-    },
-    {
-        "question": "Was ist die Hauptfarbe der Flagge von Frankreich?",
-        "answers": [
-            {"text": "Rot", "correct": false},
-            {"text": "Blau", "correct": true},
-            {"text": "Weiß", "correct": false},
-            {"text": "Gelb", "correct": false}
-        ]
-    },
-    {
-        "question": "Welche berühmte Künstlerin malte die 'Frida Kahlo mit Affen'-Serie?",
-        "answers": [
-            {"text": "Frida Kahlo", "correct": true},
-            {"text": "Georgia O'Keeffe", "correct": false},
-            {"text": "Yayoi Kusama", "correct": false},
-            {"text": "Marina Abramović", "correct": false}
-        ]
-    },
-    {
-        "question": "Welches ist das längste Gebirge der Welt?",
-        "answers": [
-            {"text": "Rocky Mountains", "correct": false},
-            {"text": "Alpen", "correct": false},
-            {"text": "Himalaya", "correct": true},
-            {"text": "Anden", "correct": false}
-        ]
-    },
-    {
-        "question": "Welches ist das schnellste Tier auf der Erde?",
-        "answers": [
-            {"text": "Gepard", "correct": true},
-            {"text": "Pferd", "correct": false},
-            {"text": "Falke", "correct": false},
-            {"text": "Elefant", "correct": false}
-        ]
-    },
-    {
-        "question": "Was ist die Hauptstadt von Italien?",
-        "answers": [
-            {"text": "Rom", "correct": true},
-            {"text": "Mailand", "correct": false},
-            {"text": "Venedig", "correct": false},
-            {"text": "Florenz", "correct": false}
-        ]
-    }
-    
-
+  {
+    "question": "What is the capital of France?",
+    "answers": [
+      { "text": "London", "correct": false },
+      { "text": "Paris", "correct": true },
+      { "text": "Berlin", "correct": false },
+      { "text": "Rome", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "answers": [
+      { "text": "W", "correct": false },
+      { "text": "H2O", "correct": true },
+      { "text": "O2", "correct": false },
+      { "text": "CO2", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Red Planet'?",
+    "answers": [
+      { "text": "Jupiter", "correct": false },
+      { "text": "Mars", "correct": true },
+      { "text": "Venus", "correct": false },
+      { "text": "Mercury", "correct": false }
+    ]
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "answers": [
+      { "text": "William Shakespeare", "correct": true },
+      { "text": "Jane Austen", "correct": false },
+      { "text": "Charles Dickens", "correct": false },
+      { "text": "Leo Tolstoy", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest mammal in the world?",
+    "answers": [
+      { "text": "Elephant", "correct": false },
+      { "text": "Giraffe", "correct": false },
+      { "text": "Blue Whale", "correct": true },
+      { "text": "Hippopotamus", "correct": false }
+    ]
+  },
+  {
+    "question": "Which country is famous for the ancient monument 'Machu Picchu'?",
+    "answers": [
+      { "text": "Peru", "correct": true },
+      { "text": "Mexico", "correct": false },
+      { "text": "Brazil", "correct": false },
+      { "text": "Colombia", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answers": [
+      { "text": "Au", "correct": true },
+      { "text": "Ag", "correct": false },
+      { "text": "Gd", "correct": false },
+      { "text": "Gr", "correct": false }
+    ]
+  },
+  {
+    "question": "Who painted the 'Mona Lisa'?",
+    "answers": [
+      { "text": "Pablo Picasso", "correct": false },
+      { "text": "Leonardo da Vinci", "correct": true },
+      { "text": "Vincent van Gogh", "correct": false },
+      { "text": "Michelangelo", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "answers": [
+      { "text": "Venus", "correct": false },
+      { "text": "Jupiter", "correct": true },
+      { "text": "Saturn", "correct": false },
+      { "text": "Neptune", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "answers": [
+      { "text": "Beijing", "correct": false },
+      { "text": "Tokyo", "correct": true },
+      { "text": "Seoul", "correct": false },
+      { "text": "Bangkok", "correct": false }
+    ]
+  },
+  {
+    "question": "Who wrote the famous play 'Hamlet'?",
+    "answers": [
+      { "text": "Oscar Wilde", "correct": false },
+      { "text": "Christopher Marlowe", "correct": false },
+      { "text": "William Shakespeare", "correct": true },
+      { "text": "George Bernard Shaw", "correct": false }
+    ]
+  },
+  {
+    "question": "Which gas is responsible for the Earth's ozone layer?",
+    "answers": [
+      { "text": "Carbon dioxide (CO2)", "correct": false },
+      { "text": "Methane (CH4)", "correct": false },
+      { "text": "Oxygen (O2)", "correct": false },
+      { "text": "Ozone (O3)", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "answers": [
+      { "text": "Liver", "correct": false },
+      { "text": "Brain", "correct": false },
+      { "text": "Lungs", "correct": false },
+      { "text": "Skin", "correct": true }
+    ]
+  },
+  {
+    "question": "Which famous scientist developed the theory of general relativity?",
+    "answers": [
+      { "text": "Isaac Newton", "correct": false },
+      { "text": "Albert Einstein", "correct": true },
+      { "text": "Galileo Galilei", "correct": false },
+      { "text": "Stephen Hawking", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the currency of Germany?",
+    "answers": [
+      { "text": "Euro", "correct": true },
+      { "text": "Pound Sterling", "correct": false },
+      { "text": "Yen", "correct": false },
+      { "text": "Dollar", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for iron?",
+    "answers": [
+      { "text": "I", "correct": false },
+      { "text": "Fe", "correct": true },
+      { "text": "Ir", "correct": false },
+      { "text": "In", "correct": false }
+    ]
+  },
+  {
+    "question": "Which famous scientist discovered the law of gravity?",
+    "answers": [
+      { "text": "Isaac Newton", "correct": true },
+      { "text": "Marie Curie", "correct": false },
+      { "text": "Charles Darwin", "correct": false },
+      { "text": "Nikola Tesla", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest continent on Earth?",
+    "answers": [
+      { "text": "Africa", "correct": false },
+      { "text": "North America", "correct": false },
+      { "text": "Asia", "correct": true },
+      { "text": "Australia", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+    "answers": [
+      { "text": "Mars", "correct": false },
+      { "text": "Venus", "correct": true },
+      { "text": "Jupiter", "correct": false },
+      { "text": "Uranus", "correct": false }
+    ]
+  },
+  {
+    "question": "Who wrote the famous novel 'Pride and Prejudice'?",
+    "answers": [
+      { "text": "Jane Austen", "correct": true },
+      { "text": "Emily Bronte", "correct": false },
+      { "text": "George Orwell", "correct": false },
+      { "text": "Charlotte Bronte", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for sodium?",
+    "answers": [
+      { "text": "So", "correct": false },
+      { "text": "Sa", "correct": false },
+      { "text": "Na", "correct": true },
+      { "text": "No", "correct": false }
+    ]
+  },
+  {
+    "question": "Which is the smallest planet in our solar system?",
+    "answers": [
+      { "text": "Mars", "correct": false },
+      { "text": "Mercury", "correct": true },
+      { "text": "Venus", "correct": false },
+      { "text": "Neptune", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the author of the 'Harry Potter' book series?",
+    "answers": [
+      { "text": "J.K. Rowling", "correct": true },
+      { "text": "Stephen King", "correct": false },
+      { "text": "J.R.R. Tolkien", "correct": false },
+      { "text": "George R.R. Martin", "correct": false }
+    ]
+  },
+  {
+    "question": "Which gas makes up the majority of Earth's atmosphere?",
+    "answers": [
+      { "text": "Nitrogen (N2)", "correct": true },
+      { "text": "Carbon dioxide (CO2)", "correct": false },
+      { "text": "Oxygen (O2)", "correct": false },
+      { "text": "Argon (Ar)", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the currency of Canada?",
+    "answers": [
+      { "text": "Euro", "correct": false },
+      { "text": "Canadian Dollar", "correct": true },
+      { "text": "Pound Sterling", "correct": false },
+      { "text": "Yen", "correct": false }
+    ]
+  },
+  {
+    "question": "Which famous scientist developed the theory of evolution by natural selection?",
+    "answers": [
+      { "text": "Isaac Newton", "correct": false },
+      { "text": "Charles Darwin", "correct": true },
+      { "text": "Galileo Galilei", "correct": false },
+      { "text": "Albert Einstein", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest species of penguin?",
+    "answers": [
+      { "text": "Emperor Penguin", "correct": true },
+      { "text": "Adelie Penguin", "correct": false },
+      { "text": "King Penguin", "correct": false },
+      { "text": "Gentoo Penguin", "correct": false }
+    ]
+  },
+  {
+    "question": "Which country is known as the 'Land of the Rising Sun'?",
+    "answers": [
+      { "text": "China", "correct": false },
+      { "text": "Japan", "correct": true },
+      { "text": "Korea", "correct": false },
+      { "text": "Vietnam", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for silver?",
+    "answers": [
+      { "text": "S", "correct": false },
+      { "text": "Si", "correct": false },
+      { "text": "Ag", "correct": true },
+      { "text": "Sr", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the author of the famous play 'To be, or not to be, that is the question.'?",
+    "answers": [
+      { "text": "William Shakespeare", "correct": true },
+      { "text": "Oscar Wilde", "correct": false },
+      { "text": "George Bernard Shaw", "correct": false },
+      { "text": "Samuel Beckett", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Blue Planet'?",
+    "answers": [
+      { "text": "Mars", "correct": false },
+      { "text": "Venus", "correct": false },
+      { "text": "Earth", "correct": true },
+      { "text": "Uranus", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest species of big cat?",
+    "answers": [
+      { "text": "Lion", "correct": false },
+      { "text": "Tiger", "correct": true },
+      { "text": "Leopard", "correct": false },
+      { "text": "Jaguar", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is known as the 'Father of Modern Physics'?",
+    "answers": [
+      { "text": "Isaac Newton", "correct": false },
+      { "text": "Albert Einstein", "correct": true },
+      { "text": "Galileo Galilei", "correct": false },
+      { "text": "Marie Curie", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "answers": [
+      { "text": "Atlantic Ocean", "correct": false },
+      { "text": "Indian Ocean", "correct": false },
+      { "text": "Pacific Ocean", "correct": true },
+      { "text": "Arctic Ocean", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the currency of Russia?",
+    "answers": [
+      { "text": "Euro", "correct": false },
+      { "text": "Russian Ruble", "correct": true },
+      { "text": "Pound Sterling", "correct": false },
+      { "text": "Yen", "correct": false }
+    ]
+  },
+  {
+    "question": "Which famous scientist proposed the theory of general relativity?",
+    "answers": [
+      { "text": "Isaac Newton", "correct": false },
+      { "text": "Albert Einstein", "correct": true },
+      { "text": "Galileo Galilei", "correct": false },
+      { "text": "Marie Curie", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest organ in the human digestive system?",
+    "answers": [
+      { "text": "Liver", "correct": false },
+      { "text": "Stomach", "correct": false },
+      { "text": "Small intestine", "correct": false },
+      { "text": "Large intestine", "correct": true }
+    ]
+  },
+  {
+    "question": "Which country is famous for the ancient monument 'Stonehenge'?",
+    "answers": [
+      { "text": "Italy", "correct": false },
+      { "text": "England", "correct": true },
+      { "text": "Greece", "correct": false },
+      { "text": "Egypt", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for carbon?",
+    "answers": [
+      { "text": "Ca", "correct": false },
+      { "text": "Cr", "correct": false },
+      { "text": "C", "correct": true },
+      { "text": "Co", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the author of the famous play 'The Crucible'?",
+    "answers": [
+      { "text": "Arthur Miller", "correct": true },
+      { "text": "Tennessee Williams", "correct": false },
+      { "text": "Edward Albee", "correct": false },
+      { "text": "Eugene O'Neill", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest desert in the world?",
+    "answers": [
+      { "text": "Gobi Desert", "correct": false },
+      { "text": "Sahara Desert", "correct": true },
+      { "text": "Arabian Desert", "correct": false },
+      { "text": "Atacama Desert", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest moon in our solar system?",
+    "answers": [
+      { "text": "Titan (Saturn)", "correct": true },
+      { "text": "Ganymede (Jupiter)", "correct": false },
+      { "text": "Luna (Earth)", "correct": false },
+      { "text": "Phobos (Mars)", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the playwright of the famous tragedy 'Macbeth'?",
+    "answers": [
+      { "text": "William Shakespeare", "correct": true },
+      { "text": "Anton Chekhov", "correct": false },
+      { "text": "Henrik Ibsen", "correct": false },
+      { "text": "August Strindberg", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for calcium?",
+    "answers": [
+      { "text": "C", "correct": false },
+      { "text": "Ca", "correct": true },
+      { "text": "Co", "correct": false },
+      { "text": "Cl", "correct": false }
+    ]
+  },
+  {
+    "question": "Which continent is home to the Amazon Rainforest?",
+    "answers": [
+      { "text": "Africa", "correct": false },
+      { "text": "Asia", "correct": false },
+      { "text": "South America", "correct": true },
+      { "text": "North America", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for potassium?",
+    "answers": [
+      { "text": "K", "correct": true },
+      { "text": "P", "correct": false },
+      { "text": "Pt", "correct": false },
+      { "text": "Kr", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the author of the famous novel '1984'?",
+    "answers": [
+      { "text": "Aldous Huxley", "correct": false },
+      { "text": "George Orwell", "correct": true },
+      { "text": "Ray Bradbury", "correct": false },
+      { "text": "Kurt Vonnegut", "correct": false }
+    ]
+  },
+  {
+    "question": "Which famous scientist is known for discovering the laws of motion?",
+    "answers": [
+      { "text": "Galileo Galilei", "correct": false },
+      { "text": "Isaac Newton", "correct": true },
+      { "text": "Marie Curie", "correct": false },
+      { "text": "Albert Einstein", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest species of bear?",
+    "answers": [
+      { "text": "Polar Bear", "correct": true },
+      { "text": "Grizzly Bear", "correct": false },
+      { "text": "Black Bear", "correct": false },
+      { "text": "Kodiak Bear", "correct": false }
+    ]
+  },
+  {
+    "question": "Which country is known as the 'Land of the Midnight Sun'?",
+    "answers": [
+      { "text": "Norway", "correct": true },
+      { "text": "Sweden", "correct": false },
+      { "text": "Finland", "correct": false },
+      { "text": "Canada", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for hydrogen?",
+    "answers": [
+      { "text": "Hg", "correct": false },
+      { "text": "H", "correct": true },
+      { "text": "He", "correct": false },
+      { "text": "Hy", "correct": false }
+    ]
+  },
+  {
+    "question": "Which mammal can fly?",
+    "answers": [
+      { "text": "Bat", "correct": true },
+      { "text": "Flying Squirrel", "correct": false },
+      { "text": "Flying Fox", "correct": false },
+      { "text": "Penguin", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the author of the famous novel 'To Kill a Mockingbird'?",
+    "answers": [
+      { "text": "Harper Lee", "correct": true },
+      { "text": "Mark Twain", "correct": false },
+      { "text": "John Steinbeck", "correct": false },
+      { "text": "F. Scott Fitzgerald", "correct": false }
+    ]
+  },
+  {
+    "question": "Which gas is essential for photosynthesis?",
+    "answers": [
+      { "text": "Oxygen (O2)", "correct": false },
+      { "text": "Carbon dioxide (CO2)", "correct": true },
+      { "text": "Nitrogen (N2)", "correct": false },
+      { "text": "Argon (Ar)", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the currency of Brazil?",
+    "answers": [
+      { "text": "Euro", "correct": false },
+      { "text": "Pound Sterling", "correct": false },
+      { "text": "Brazilian Real", "correct": true },
+      { "text": "Yen", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the famous artist known for painting the 'Mona Lisa'?",
+    "answers": [
+      { "text": "Vincent van Gogh", "correct": false },
+      { "text": "Leonardo da Vinci", "correct": true },
+      { "text": "Pablo Picasso", "correct": false },
+      { "text": "Michelangelo", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Ringed Planet'?",
+    "answers": [
+      { "text": "Jupiter", "correct": false },
+      { "text": "Saturn", "correct": true },
+      { "text": "Uranus", "correct": false },
+      { "text": "Neptune", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest artery in the human body?",
+    "answers": [
+      { "text": "Pulmonary artery", "correct": false },
+      { "text": "Coronary artery", "correct": false },
+      { "text": "Aorta", "correct": true },
+      { "text": "Femoral artery", "correct": false }
+    ]
+  },
+  {
+    "question": "Which country is known for the ancient monument 'The Great Wall'?",
+    "answers": [
+      { "text": "India", "correct": false },
+      { "text": "China", "correct": true },
+      { "text": "Egypt", "correct": false },
+      { "text": "Greece", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the playwright of the famous tragedy 'Romeo and Juliet'?",
+    "answers": [
+      { "text": "Christopher Marlowe", "correct": false },
+      { "text": "William Shakespeare", "correct": true },
+      { "text": "George Bernard Shaw", "correct": false },
+      { "text": "Oscar Wilde", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for nitrogen?",
+    "answers": [
+      { "text": "N", "correct": true },
+      { "text": "Ni", "correct": false },
+      { "text": "Na", "correct": false },
+      { "text": "Ne", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Blue-Green Planet'?",
+    "answers": [
+      { "text": "Mars", "correct": false },
+      { "text": "Venus", "correct": false },
+      { "text": "Earth", "correct": false },
+      { "text": "Uranus", "correct": true }
+    ]
+  },
+  {
+    "question": "Who is the author of the famous novel 'The Great Gatsby'?",
+    "answers": [
+      { "text": "George Orwell", "correct": false },
+      { "text": "F. Scott Fitzgerald", "correct": true },
+      { "text": "Mark Twain", "correct": false },
+      { "text": "Ernest Hemingway", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest bird in the world?",
+    "answers": [
+      { "text": "Ostrich", "correct": true },
+      { "text": "Emu", "correct": false },
+      { "text": "Albatross", "correct": false },
+      { "text": "Penguin", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the currency of India?",
+    "answers": [
+      { "text": "Indian Rupee", "correct": true },
+      { "text": "Euro", "correct": false },
+      { "text": "Pound Sterling", "correct": false },
+      { "text": "Yen", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the famous artist known for painting 'The Starry Night'?",
+    "answers": [
+      { "text": "Pablo Picasso", "correct": false },
+      { "text": "Claude Monet", "correct": false },
+      { "text": "Vincent van Gogh", "correct": true },
+      { "text": "Salvador Dali", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Morning Star'?",
+    "answers": [
+      { "text": "Mars", "correct": false },
+      { "text": "Venus", "correct": true },
+      { "text": "Jupiter", "correct": false },
+      { "text": "Mercury", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest vein in the human body?",
+    "answers": [
+      { "text": "Pulmonary vein", "correct": false },
+      { "text": "Coronary vein", "correct": false },
+      { "text": "Hepatic vein", "correct": false },
+      { "text": "Inferior vena cava", "correct": true }
+    ]
+  },
+  {
+    "question": "Which country is known for the ancient monument 'The Colosseum'?",
+    "answers": [
+      { "text": "Greece", "correct": false },
+      { "text": "Italy", "correct": true },
+      { "text": "Spain", "correct": false },
+      { "text": "Turkey", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the author of the famous play 'Hamlet'?",
+    "answers": [
+      { "text": "Christopher Marlowe", "correct": false },
+      { "text": "William Shakespeare", "correct": true },
+      { "text": "George Bernard Shaw", "correct": false },
+      { "text": "Oscar Wilde", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for oxygen?",
+    "answers": [
+      { "text": "O", "correct": true },
+      { "text": "Ox", "correct": false },
+      { "text": "Og", "correct": false },
+      { "text": "On", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Red Giant'?",
+    "answers": [
+      { "text": "Mars", "correct": false },
+      { "text": "Venus", "correct": false },
+      { "text": "Jupiter", "correct": false },
+      { "text": "Betelgeuse (not a planet)", "correct": true }
+    ]
+  },
+  {
+    "question": "Who is the author of the famous novel 'The Catcher in the Rye'?",
+    "answers": [
+      { "text": "George Orwell", "correct": false },
+      { "text": "J.D. Salinger", "correct": true },
+      { "text": "Mark Twain", "correct": false },
+      { "text": "Ernest Hemingway", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest reptile in the world?",
+    "answers": [
+      { "text": "Anaconda", "correct": false },
+      { "text": "Saltwater Crocodile", "correct": true },
+      { "text": "Komodo Dragon", "correct": false },
+      { "text": "Alligator", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "answers": [
+      { "text": "Japanese Yen", "correct": true },
+      { "text": "Euro", "correct": false },
+      { "text": "Pound Sterling", "correct": false },
+      { "text": "Dollar", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the famous artist known for painting the 'Sistine Chapel Ceiling'?",
+    "answers": [
+      { "text": "Raphael", "correct": false },
+      { "text": "Leonardo da Vinci", "correct": false },
+      { "text": "Michelangelo", "correct": true },
+      { "text": "Titian", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Giant of our Solar System'?",
+    "answers": [
+      { "text": "Jupiter", "correct": true },
+      { "text": "Saturn", "correct": false },
+      { "text": "Neptune", "correct": false },
+      { "text": "Uranus", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest bone in the human body?",
+    "answers": [
+      { "text": "Femur", "correct": true },
+      { "text": "Tibia", "correct": false },
+      { "text": "Humerus", "correct": false },
+      { "text": "Radius", "correct": false }
+    ]
+  },
+  {
+    "question": "Which country is known for the ancient monument 'The Pyramids of Giza'?",
+    "answers": [
+      { "text": "Iraq", "correct": false },
+      { "text": "Egypt", "correct": true },
+      { "text": "Iran", "correct": false },
+      { "text": "Israel", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the author of the famous play 'Macbeth'?",
+    "answers": [
+      { "text": "William Shakespeare", "correct": true },
+      { "text": "Christopher Marlowe", "correct": false },
+      { "text": "George Bernard Shaw", "correct": false },
+      { "text": "Oscar Wilde", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for helium?",
+    "answers": [
+      { "text": "H", "correct": false },
+      { "text": "He", "correct": true },
+      { "text": "Hu", "correct": false },
+      { "text": "Ha", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Blue Planet'?",
+    "answers": [
+      { "text": "Mars", "correct": false },
+      { "text": "Venus", "correct": false },
+      { "text": "Earth", "correct": true },
+      { "text": "Neptune", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the author of the famous novel 'Pride and Prejudice'?",
+    "answers": [
+      { "text": "Jane Austen", "correct": true },
+      { "text": "Emily Bronte", "correct": false },
+      { "text": "George Eliot", "correct": false },
+      { "text": "Charlotte Bronte", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest fish in the world?",
+    "answers": [
+      { "text": "Great White Shark", "correct": false },
+      { "text": "Blue Whale", "correct": false },
+      { "text": "Giant Manta Ray", "correct": false },
+      { "text": "Whale Shark", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the currency of South Korea?",
+    "answers": [
+      { "text": "South Korean Dollar", "correct": false },
+      { "text": "Yen", "correct": false },
+      { "text": "Won", "correct": true },
+      { "text": "Peso", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the famous artist known for painting the 'Girl with a Pearl Earring'?",
+    "answers": [
+      { "text": "Vincent van Gogh", "correct": false },
+      { "text": "Johannes Vermeer", "correct": true },
+      { "text": "Rembrandt", "correct": false },
+      { "text": "Edvard Munch", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Red Planet'?",
+    "answers": [
+      { "text": "Mars", "correct": true },
+      { "text": "Venus", "correct": false },
+      { "text": "Mercury", "correct": false },
+      { "text": "Neptune", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest internal organ in the human body?",
+    "answers": [
+      { "text": "Liver", "correct": true },
+      { "text": "Stomach", "correct": false },
+      { "text": "Lungs", "correct": false },
+      { "text": "Heart", "correct": false }
+    ]
+  },
+  {
+    "question": "Which country is known for the ancient monument 'Taj Mahal'?",
+    "answers": [
+      { "text": "India", "correct": true },
+      { "text": "China", "correct": false },
+      { "text": "Egypt", "correct": false },
+      { "text": "Iran", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the author of the famous play 'Romeo and Juliet'?",
+    "answers": [
+      { "text": "William Shakespeare", "correct": true },
+      { "text": "Christopher Marlowe", "correct": false },
+      { "text": "George Bernard Shaw", "correct": false },
+      { "text": "Oscar Wilde", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for iron?",
+    "answers": [
+      { "text": "I", "correct": false },
+      { "text": "Fe", "correct": true },
+      { "text": "Ir", "correct": false },
+      { "text": "In", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Gas Giant'?",
+    "answers": [
+      { "text": "Mars", "correct": false },
+      { "text": "Venus", "correct": false },
+      { "text": "Jupiter", "correct": true },
+      { "text": "Saturn", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the author of the famous novel 'To Kill a Mockingbird'?",
+    "answers": [
+      { "text": "Harper Lee", "correct": true },
+      { "text": "Mark Twain", "correct": false },
+      { "text": "John Steinbeck", "correct": false },
+      { "text": "F. Scott Fitzgerald", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest mammal in the world?",
+    "answers": [
+      { "text": "African Elephant", "correct": false },
+      { "text": "Blue Whale", "correct": true },
+      { "text": "Giraffe", "correct": false },
+      { "text": "Hippopotamus", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the currency of Mexico?",
+    "answers": [
+      { "text": "Mexican Dollar", "correct": false },
+      { "text": "Peso", "correct": true },
+      { "text": "Euro", "correct": false },
+      { "text": "Yen", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the famous artist known for painting the 'Last Supper'?",
+    "answers": [
+      { "text": "Pablo Picasso", "correct": false },
+      { "text": "Leonardo da Vinci", "correct": true },
+      { "text": "Vincent van Gogh", "correct": false },
+      { "text": "Michelangelo", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Blue Giant'?",
+    "answers": [
+      { "text": "Mars", "correct": false },
+      { "text": "Venus", "correct": false },
+      { "text": "Jupiter", "correct": false },
+      { "text": "Rigel (not a planet)", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the largest bone in the human arm?",
+    "answers": [
+      { "text": "Humerus", "correct": true },
+      { "text": "Ulna", "correct": false },
+      { "text": "Radius", "correct": false },
+      { "text": "Femur", "correct": false }
+    ]
+  },
+  {
+    "question": "Which country is known for the ancient monument 'Stonehenge'?",
+    "answers": [
+      { "text": "Italy", "correct": false },
+      { "text": "England", "correct": true },
+      { "text": "Greece", "correct": false },
+      { "text": "Egypt", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the author of the famous novel 'The Lord of the Rings'?",
+    "answers": [
+      { "text": "J.K. Rowling", "correct": false },
+      { "text": "J.R.R. Tolkien", "correct": true },
+      { "text": "George R.R. Martin", "correct": false },
+      { "text": "C.S. Lewis", "correct": false }
+    ]
+  }
 ]
