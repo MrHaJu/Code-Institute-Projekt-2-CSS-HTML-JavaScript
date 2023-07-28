@@ -1,13 +1,13 @@
 
 :root {
     --bgcolor:#45364B;
-    --appcolor: #B5C2b7;
-    --textcolor:#2d2327;
+    --appcolor: #B4C2b7;
+    --textcolor:#2d233A;
     --buttoncolor:#8C93A8;
     --contrastcolor:#62466B;
     --contrasttext: #fff;
     --correct: #368841;
-    --wrong: #f8d7da;
+    --wrong: #f9d7da;
 }
 * {
     margin: 0;
@@ -89,7 +89,10 @@ body {
     cursor: pointer;
     display: none;
 }
-
+#next-btn:hover:not([disabled]) {
+    background: var(--contrastcolor);
+    transition: all 0.8s;
+}
 #beenden {
     background: var(--buttoncolor);
     color: var(--textcolor);
