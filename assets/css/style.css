@@ -105,6 +105,12 @@ body {
     cursor: pointer;
     display: none;
 }
+
+#beenden:hover {
+    background: var(--contrastcolor);
+    transition: all 0.8s;
+}
+
 .correct{
     background: var(--correct);
 
