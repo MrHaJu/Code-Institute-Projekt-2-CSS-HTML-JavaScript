@@ -89,7 +89,7 @@ function selectAnswer(e){
 function showScore(){
     const playerName = getPlayerName(); // Call local saved Player Name
     resetState();
-    questionElement.innerHTML = `${playerName}, you got ${score} of ${maxQuestions} !`;
+    questionElement.innerHTML = `${playerName}, you answered ${score} out of ${maxQuestions} questions correctly!`;
     nextButton.innerHTML = "Play again";
     nextButton.style.display = "block";
     beenden.innerHTML = "End Game";
