@@ -105,21 +105,28 @@ The website is comprised of three pages. (home page, quiz page and Instruction p
 * All Pages on the website are fully responsible for best Userexperience on all Devices.
 
 * Home Page.
+
+![Home Page](./assets/images/readme/Index.png)
   * A Input Field to insert a Player Name.
   * A Start Button.
   * A Button to visit the Instruction Page.
 
 * Quiz Page
+
+![Quiz Page](./assets/images/readme/quiz.png)
   * 10 random Questions with 4 Answers.
   * One of the 4 Answers is correct. 
   * A Next Button which appears after you have choosen a Answer.
   * A Score board with Player Name and Score out of 10 questions.
+
+![Score Board](./assets/images/readme/score.png)
   * A End Game button to skip back to the Homepage.
   * A Play again button to restart the Quiz.
   
 
 * Instruction Page. 
 
+![Instruction Page](./assets/images/readme/instruction.png)
   * A description on how to use the Quiz game.
   * A Back Button to head back to the Homepage.
 
