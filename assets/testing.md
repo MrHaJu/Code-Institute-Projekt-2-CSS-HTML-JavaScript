@@ -28,10 +28,6 @@
 
 ## AUTOMATED TESTING
 
-The Automated Testing includes all the testing that is carried out by a program, like W3C HTML validation.
-
-
-
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
 
@@ -93,13 +89,16 @@ lighthouse testing :
 
 ## MANUAL TESTING
 
-There were no issues in the project.
+
 
 ### Solved Bugs
 
 | Bug No | Bug Issue | How Resolved |
 | :--- | :--- | :--- |
 | 1 | On mobile devices, the app was a little off center to the right. | with justify content, this problem was solved |
+| 2 | getting the Player Name from index Page to the Score Page called an issue so the questions couldn´t load | putting the Player Name in local storage and call it with get playername solved the problem |
+| 3 | instead of retrieving the questions in the Scripts.js, saving the questions in the questions.json resulted in the questions no longer being displayed | solved with an asynchronous function and await fetch |
+| 4 | the same questions were always loaded | solved with a function (.sort, .slice) |
 
 
 ### Known Bugs
