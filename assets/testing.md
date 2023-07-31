@@ -128,29 +128,27 @@ Google Chrome and Microsoft edge on Windows and Android. Safari on Mac
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | `Index Page` |  |  |  |  |
-| Text Hover  | When hover over Text it will change colour | Hovered over Text | colour changed | Pass |
-| Image Text | When click on Text below the Image, Details will be shown | clicked Text | Details showed up | Pass |
+| Button Hover  | When hover over Button it will change colour | Hovered over Button | colour changed | Pass |
+| Input Text | Game only starts if Player Name is chosen | insert Playername and click start Game| Game started | Pass |
+| Start without Playername  | Game only starts if Player Name is chosen | click Star Game without choosing Playername | Game will not start | Pass |
+| Instructions | when click on Instructions, Instruction Page loades | clicked on Instructions | Instruction Page opens | Pass |
 |  |  |  |  |  |
 | `Quiz Page` |  |  |  |  |
-| Text Hover  | When hover over Text it will change colour | Hovered over Text | colour changed | Pass |
-| Carousel stop | When hover over Carousel, it stops turning.  | Hovered over carousel | turning stopped | Pass |
-| Carousel scroll | When hover over Carousel, scrolling with Mousewheel scrolls through carousel | Hovered over Carousel, scrolled Mousewheel | Carousel scrolls | Pass |
-| Carousel click | When click on a Projekt, shown in the Caousel it opens a new Page with the Project | clicked on Projekt in Carousel | New Page opens, shows project | Pass |
+| Button Hover  | When hover over Buttons it will change colour | Hovered over Button | colour changed | Pass |
+| click right Answer | When click right answer button colour changes to Green.  | click right answer | Button changes to green | Pass |
+| click wrong Answer | When click wrong answer button colour changes to light red.  | click wrong answer | Button changes to light red | Pass |
+| Next Button click | When click on Next Button, the next Question appears | clicked on Next Button | next Question appears | Pass |
+| Next Button | Next Button only appears if any Answer is chosen | choose Answer | Next Button appears | Pass |
+| No click | if any Answer is chosen, you are not allowed to click anything but Next Button | choose Answer | Only Next Button is clickable | Pass |
 |  |  |  |  |  |
 | `Instruction Page` |  |  |  |  |
-| Hover Image | When hovering over the Image on Desktop Screen, it turns 180° and shows the CV | Hovered over Image | Image turns around and showed CV  | Pass |
+| Back Button | When click on Back Button, it returns to Index Page | Click Back Button | head back to Index Page  | Pass |
 |  |  |  |  |  |
 | `Score Board` |  |  |  |  |
+| Score | after finsishing 10 Questions, Score Boar is loaded, shows Score and beneath Score, Play Again Button and End Game Button is shown | finish 10 Questions | Score, Play Again Button and End Game Button is shown | Pass |
+| Click Play Again Button | If click on Play Again, a new Game with 10 Question starts | click Play Again button | New Game started | Pass |
+| Click End Game Button | If click End Game Button, Game ends and head back to Enter Player Name (Index Page) | click End Game button | Game ends and head back to Enter Player Name (Index Page) | Pass |
 |  |  |  |  |  |
-| Submit Form Button - No information entered by user | The form will direct the user to fill in the name field | Clicked submit button with no information filled in | Asked to fill in name field | Pass |
-| Submit Form Button - Some information entered | User will be directed to fill in the fields they have left blank | Filled in only part of the form | Asked to fill in the missing fields | Pass |
-| Submit form button - all fields filled out | Modal pop up with message confirming message successfully sent | Filled in all forms and pressed submit | Modal popped up with success message | Pass |
-| Submit button - hover | when hovered over the button changes colour | Hovered over button | Button changed colour | Pass |
-| Name input - focus | When input field is clicked on the border of the input field will change colour | Clicked on input field | Border changed colour | Pass |
-| Email input - focus | When input field is clicked on the border of the input field will change colour | Clicked on input field | Border changed colour | Pass |
-| Text Area - focus |When text area is clicked on the border of the text area will change colour | Clicked on text area | Border changed colour | Pass |
-|  |  |  |  |  |
-
 
 ---
 
@@ -159,16 +157,13 @@ Google Chrome and Microsoft edge on Windows and Android. Safari on Mac
 |---|---|---|
 | `First Time Visitors` |  |  |
 |  |  |  |
-| Understand what the site is for and how to navigate the site. | A description of what the site is is included on the home page. | :--- |
-| Navigate to the projects page and view projects that have already been published | a carousel is integrated on the projects page in which the finished projects are available for selection | :--- |
-| Navigate to the CV page and view the CV | On the CV page is a PDF image that if you hover over it on a desktop pc or laptop it will open the CV as a PDF for viewing. on mobile devices you can click on the PDF image and the CV will be downloaded | :--- |
-| navigate to the Contact page to send a message to the site owner | On the contact page there is a contact form in which you can send your name, email address and a message to my Googlemail address. | :--- |
+| Understand what the site is for and how to navigate the site. | A description of what the site is is included on the Instruction page. | :--- |
+| Play Quiz | On the Index Page, set a Player Name and start the Quiz. Try to reach the maximum Score and maybe play again | :--- |
+|  |  | :--- |
 |  |  |  |
 |`Returning Visitors`|  |  |
 |  |  |  |
-| Navigate to the projects page and view new projects that have been published | a carousel is integrated on the projects page in which the finished projects are available for selection | :--- |
-| Navigate to the CV page and view the CV | On the CV page is a PDF image that if you hover over it on a desktop pc or laptop it will open the CV as a PDF for viewing. on mobile devices you can click on the PDF image and the CV will be downloaded | :--- |
-| Navigate to the Contact page to send a message to the site owner | On the contact page there is a contact form in which you can send your name, email address and a message to my Googlemail address. | :--- |
+| Play Quiz | On the Index Page, set a Player Name and start the Quiz. Try to reach the maximum Score and maybe play again | :--- |
 |  |  |  |
 
 ---
@@ -182,6 +177,8 @@ Google Chrome and Microsoft edge on Windows and Android. Safari on Mac
 | Edge | Mobile | ✔️ |
 | Firefox | Desktop | ✔️ |
 | Firefox | Mobile | ✔️ |
+| Safari (iOS/iPadOS) | Mobile |  ✔️ |
+| Safari | Desktop | ✔️ |
 
 ---
 
