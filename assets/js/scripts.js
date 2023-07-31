@@ -106,6 +106,7 @@ function handleNextButton() {
     }
 }
 
+// Handles the End Button and brings back to the index Page
 function handlebeendenButton(){
     beendenButton.addEventListener("click", function() {
         window.location.href = "index.html";
