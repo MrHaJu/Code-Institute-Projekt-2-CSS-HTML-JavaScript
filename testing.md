@@ -2,7 +2,7 @@
  
  ## My Portfolio Website
 
- ![View on multiple screens](./images/view-on-multiple-screens.png)
+ ![View on multiple screens](./assets/images/view-on-multiple-screens.png)
  
  [View Quiz on Github Pages](https://mrhaju.github.io/Code-Institute-Projekt-2-CSS-HTML-JavaScript/)
 
