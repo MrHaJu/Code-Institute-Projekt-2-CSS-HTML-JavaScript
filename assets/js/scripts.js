@@ -1,13 +1,15 @@
 // Imports Player Name from index.js
 function getPlayerName() {
   return localStorage.getItem("playerName");
+
 }
-
+//Logs Playername to console
 const playerNamerStorage = getPlayerName();
-console.log(playerNamerStorage, "ps");
+console.log(playerNamerStorage,); 
 
+// defends User from accessing the Quiz without entering a Player Name
 if (!playerNamerStorage) {
-  window.location.href = "index.html";
+  window.location.href = "index.html"; 
 }
 // Sets Constants for Buttons and Questions
 const questionElement = document.getElementById("question");
