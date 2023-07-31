@@ -13,6 +13,7 @@ if (!playerNamerStorage) {
 }
 // Sets Constants for Buttons and Questions
 const questionElement = document.getElementById("question");
+const questionCountElement = document.getElementById("question-count");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const beendenButton = document.getElementById("beenden");
@@ -65,6 +66,7 @@ function showQuestion() {
     }
     button.addEventListener("click", selectAnswer);
   });
+  questionCountElement.innerHTML = `Question ${questionNo} / ${maxQuestions}`;
 }
 
 //Removes the Answer Button at the beginning and beetwen in the Game
@@ -102,6 +104,7 @@ function showScore() {
   nextButton.style.display = "block";
   beenden.innerHTML = "End Game";
   beenden.style.display = "block";
+  questionCountElement.style.display = "none"; //blends out the Questioncounter
   handlebeendenButton();
 }
 // activates the Next Button after you choose any Answer
