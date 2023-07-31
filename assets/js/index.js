@@ -3,8 +3,13 @@ const playerForm = document.getElementById("Username");
 playerForm.addEventListener("submit", function(event) {
     event.preventDefault();
 
-    const playerName = document.getElementById("player").value;
-    localStorage.setItem("playerName", playerName); // Spielername im localStorage speichern
+    const playerNameInput = document.getElementById("player");
+    const playerName = playerNameInput.value.trim(); // trims whitspace at the Beginning
 
-    window.location.href = "quiz.html"; // Kein URL-Parameter nötig
+    if (playerName !== "") { // checks if Playername is empty
+        localStorage.setItem("playerName", playerName); // saves PlayerName in localStorage
+        window.location.href = "quiz.html";
+    } else {
+                alert("Please enter a Valid Player Name."); // gives an Alert if the Player enters only Whitespace
+    }
 });
