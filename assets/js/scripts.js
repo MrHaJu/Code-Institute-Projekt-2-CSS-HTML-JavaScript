@@ -45,7 +45,7 @@ function shuffleQuestions() {
 function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
-  beenden.style.display = "hidden";
+  beenden.style.display = "hidden"; // Hides the End Game Button
   nextButton.innerHTML = "Next";
   loadQuestions();
 }
