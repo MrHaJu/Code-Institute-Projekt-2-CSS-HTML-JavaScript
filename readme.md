@@ -199,6 +199,7 @@ Please view the [testing.md](testing.md) file for more information on the testin
 
 * [Code from Bito VSC extension to find Bugs and Explain how code works](https://marketplace.visualstudio.com/items?itemName=Bito.Bito)
 * [Tutorial By GreatStack used as a Base for the Quiz](https://youtu.be/PBcqGxrr9g8)
+* [ChatGpt](Https://openai.com)
 
 
 ### Content
@@ -209,3 +210,4 @@ Content of the website was written by the owner (Andreas Huppertz)
 
 * [Jubril Akolade](https://github.com/Jubrillionaire), my Code Institute Mentor.
 * [GreatStack YouTube Channel](https://www.youtube.com/@GreatStackDev)
+* [ChatGpt](Https://openai.com)
