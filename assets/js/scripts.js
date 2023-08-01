@@ -32,7 +32,7 @@ async function loadQuestions() {
     shuffleQuestions();
     showQuestion();
   } catch (error) {
-    console.error("Fehler beim Laden der Fragen:", error);
+    console.error("Question loading failed:", error);
   }
 }
 
@@ -45,6 +45,7 @@ function shuffleQuestions() {
 function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
+  beenden.style.display = "hidden";
   nextButton.innerHTML = "Next";
   loadQuestions();
 }
@@ -93,19 +94,21 @@ function selectAnswer(e) {
     }
     button.disabled = true;
   });
+  beenden.style.display = "hidden";
   nextButton.style.display = "block";
-}
+  }
 //Showes the Score at the End of the Game
 function showScore() {
   const playerName = getPlayerName(); // Call local saved Player Name
   resetState();
   questionElement.innerHTML = `${playerName}, you answered ${score} out of ${maxQuestions} questions correctly!`;
-  nextButton.innerHTML = "Play again";
-  nextButton.style.display = "block";
+  nextButton.style.display = "hidden";
+  playagnbtn.style.display ="block"
   beenden.innerHTML = "End Game";
   beenden.style.display = "block";
   questionCountElement.style.display = "none"; //blends out the Questioncounter
   handlebeendenButton();
+  handleplayagnbtn();
 }
 // activates the Next Button after you choose any Answer
 function handleNextButton() {
@@ -117,9 +120,18 @@ function handleNextButton() {
   }
 }
 
+// Handles the Play Again Button and brings back to the index Page
+function handleplayagnbtn() {
+  playagnbtn.addEventListener("click", function () {
+    window.location.href = "quiz.html";
+    
+  });
+}
+
 // Handles the End Button and brings back to the index Page
 function handlebeendenButton() {
   beendenButton.addEventListener("click", function () {
+    localStorage.clear();
     window.location.href = "index.html";
   });
 }
