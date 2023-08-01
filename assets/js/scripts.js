@@ -120,7 +120,7 @@ function handleNextButton() {
   }
 }
 
-// Handles the Play Again Button and brings back to the index Page
+// Handles the Play Again Button and brings back to the Quiz
 function handleplayagnbtn() {
   playagnbtn.addEventListener("click", function () {
     window.location.href = "quiz.html";
