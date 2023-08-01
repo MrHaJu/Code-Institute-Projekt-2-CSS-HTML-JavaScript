@@ -128,11 +128,11 @@ function handleplayagnbtn() {
   });
 }
 
-// Handles the End Button and brings back to the index Page
+// Handles the End Button and:
 function handlebeendenButton() {
   beendenButton.addEventListener("click", function () {
-    localStorage.clear();
-    window.location.href = "index.html";
+    localStorage.clear();  // Clears Local Storage to get rid of the Player Name
+    window.location.href = "index.html"; // brings back to the index Page
   });
 }
 
