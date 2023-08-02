@@ -113,13 +113,13 @@ The website is comprised of three pages. (home page, quiz page and Instruction p
 
 * Quiz Page
 
-![Quiz Page](assets/images/readme/quiz.png)
+![Quiz Page](assets/images/readme/Quiz.png)
   * 10 random Questions with 4 Answers.
   * One of the 4 Answers is correct. 
   * A Next Button which appears after you have choosen a Answer.
   * A Score board with Player Name and Score out of 10 questions.
 
-![Score Board](assets/images/readme/score.png)
+![Score Board](assets/images/readme/Score.png)
   * A End Game button to skip back to the Homepage.
   * A Play again button to restart the Quiz.
   
