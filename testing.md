@@ -35,13 +35,13 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 ### W3C Validator
 
-* [Index Page HTML](./images/testing/w3c/w3cindex.png)
-* [Quiz Page HTML](./images/testing/w3c/w3cquiz.png)
-* [Instructions Page HTML](./images/testing/w3c/w3cinstructions.png)
+* [Index Page HTML](assets/images/testing/w3c/w3cindex.png)
+* [Quiz Page HTML](assets/images/testing/w3c/w3cquiz.png)
+* [Instructions Page HTML](assets/images/testing/w3c/w3cinstructions.png)
 
 #### **CSS Validation**
 
-* [style.css CSS](./images/testing/w3c/w3cstylecss.png)
+* [style.css CSS](assets/images/testing/w3c/w3cstylecss.png)
 
 ---
 
