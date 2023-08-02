@@ -49,7 +49,7 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
-* [scripts.js](documentation/testing/validation/jshint-contact.png)
+* [scripts.js](assets/images/testing//jshint-contact.png)
 * [index.js](assets/images/testing/jshint/jshint-projects.png)
 * [questions.json](assets/images/testing/jshint/jshint-projects.png)
 
