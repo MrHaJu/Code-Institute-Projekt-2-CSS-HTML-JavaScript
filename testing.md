@@ -51,13 +51,13 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 * [scripts.js](assets/images/testing/jshint/jshintscripts.png)
 * [index.js](assets/images/testing/jshint/jshintindex.png)
-* [questions.json](assets/images/testing/jsonlint/jsonlintquestions.png)
 
 ### Json Validator
 
 [jsonlint.com](https://jsonlint.com/) was used to validate the Json Data.
 
-*[questions.json](./images/testing/jsonlint/jsonlintquestions.png)
+* [questions.json](assets/images/testing/jsonlint/jsonlintquestions.png)
+
 
 - - -
 
@@ -68,21 +68,21 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 lighthouse testing :
 * #### Desktop:
 
-    * [Index Page - Test ](./images/testing/lighthouse/lightjouseindex-desktop.png)
-    * [Instruction Page - Test ](./images/testing/lighthouse/lightjouseinstructions-desktop.png)
-    * [Quiz Page - Test ](./images/testing/lighthouse/lightjousequiz-desktop.png)
+    * [Index Page - Test ](assets/images/testing/lighthouse/lightjouseindex-desktop.png)
+    * [Instruction Page - Test ](assets/images/testing/lighthouse/lightjouseinstructions-desktop.png)
+    * [Quiz Page - Test ](assets/images/testing/lighthouse/lightjousequiz-desktop.png)
     
 
 * #### Mobile:
 
-    * [Index Page - Test ](./images/testing/lighthouse/lightjouseindex-mobile.png)
-    * [Instruction Page - Test ](./images/testing/lighthouse/lightjouseinstructions-mobile.png)
-    * [Quiz Page - Test ](./images/testing/lighthouse/lightjousequiz-mobile.png)
+    * [Index Page - Test ](assets/images/testing/lighthouse/lightjouseindex-mobile.png)
+    * [Instruction Page - Test ](assets/images/testing/lighthouse/lightjouseinstructions-mobile.png)
+    * [Quiz Page - Test ](assets/images/testing/lighthouse/lightjousequiz-mobile.png)
 
 
 ### WAVE
 
-* [Wave Test](./images/testing/wave/wavetest.png)
+* [Wave Test](assets/images/testing/wave/wavetest.png)
 
 
 - - -
