@@ -199,7 +199,7 @@ Please view the [testing.md](testing.md) file for more information on the testin
 
 * [Code from Bito VSC extension to find Bugs and Explain how code works](https://marketplace.visualstudio.com/items?itemName=Bito.Bito)
 * [Tutorial By GreatStack used as a Base for the Quiz](https://youtu.be/PBcqGxrr9g8)
-* [ChatGpt](Https://openai.com)
+* [ChatGpt used to give 100 Questions ](Https://openai.com)
 
 
 ### Content
