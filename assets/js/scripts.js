@@ -131,7 +131,7 @@ function handleplayagnbtn() {
 // Handles the End Button and:
 function handlebeendenButton() {
   beendenButton.addEventListener("click", function () {
-    localStorage.clear();  // Clears Local Storage to get rid of the Player Name
+    localStorage.removeItem("playerName");  // Deletes PlayerName from Localstorage
     window.location.href = "index.html"; // brings back to the index Page
   });
 }
