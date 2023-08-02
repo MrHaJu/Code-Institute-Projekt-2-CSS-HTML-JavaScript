@@ -49,9 +49,9 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
-* [scripts.js](assets/images/testing//jshint-contact.png)
-* [index.js](assets/images/testing/jshint/jshint-projects.png)
-* [questions.json](assets/images/testing/jshint/jshint-projects.png)
+* [scripts.js](assets/images/testing/jshintindex.png)
+* [index.js](assets/images/testing/jshint/jshintscripts.png)
+* [questions.json](assets/images/testing/jsonlint/jsonlintquestions.png)
 
 ### Json Validator
 
