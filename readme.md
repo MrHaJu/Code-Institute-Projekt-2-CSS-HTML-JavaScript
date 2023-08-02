@@ -1,4 +1,4 @@
-# Code Institute Project 2 HTML, CSS and JavaScript
+# Code Institute Project 2 HTML, CSS, and JavaScript
 
 
  # My JavaScript Quiz
@@ -59,22 +59,22 @@ I build this simple quiz app as a Java Script essential portfolio project.
 
 * Have fun, playing a Quiz game.
 
-#### First Time Visitor Goals
+#### First-Time Visitor Goals
 
-* I want to find out what i can do with this app.
+* I want to find out what I can do with this app.
 * I want to be able to navigate the site easily.
 * I want to read the Instructions.
 * I want to enter my Player Name.
 * I want to play the Quiz game.
 * I want to view my Score.
-* I want to decide if i play another round or to end the Game after i viewed my Score.
+* I want to decide if I play another round or end the Game after I viewed my Score.
 
 #### Returning Visitor Goals
 
 * I want to enter my Player Name.
 * I want to play the Quiz game.
 * I want to view my Score.
-* I want to decide if i play another round or to end the Game after i viewed my Score.
+* I want to decide if I play another round or end the Game after I viewed my Score.
 
 - - -
 
@@ -84,7 +84,7 @@ I build this simple quiz app as a Java Script essential portfolio project.
 
 ![MrHaJu Website Colour Palette](assets/images/colorpalette.png)
 
-The Website uses a palette of warm pastel colors. The colour palette was displayed using the [Coolors](https://coolors.co/) website.
+The Website uses a palette of warm pastel colors. The color palette was displayed using the [Coolors](https://coolors.co/) website.
 
 ### Typography
 
@@ -100,9 +100,9 @@ All images used are created by myself.
 
 ### Features
 
-The website is comprised of three pages. (home page, quiz page and Instruction page).
+The website is comprised of three pages. (home page, quiz page, and Instruction page).
 
-* All Pages on the website are fully responsible for best Userexperience on all Devices.
+* All Pages on the website are fully responsible for the best User Experience on all Devices.
 
 * Home Page.
 
@@ -116,31 +116,31 @@ The website is comprised of three pages. (home page, quiz page and Instruction p
 ![Quiz Page](assets/images/readme/Quiz.png)
   * 10 random Questions with 4 Answers.
   * One of the 4 Answers is correct. 
-  * A Next Button which appears after you have choosen a Answer.
-  * A Score board with Player Name and Score out of 10 questions.
+  * A Next Button appears after you have chosen an Answer.
+  * A Scoreboard with Player Name and Score out of 10 questions.
 
 ![Score Board](assets/images/readme/Score.png)
   * A End Game button to skip back to the Homepage.
-  * A Play again button to restart the Quiz.
+  * A Play Again button to restart the Quiz.
   
 
 * Instruction Page. 
 
 ![Instruction Page](assets/images/readme/instruction.png)
-  * A description on how to use the Quiz game.
+  * A description of how to use the Quiz game.
   * A Back Button to head back to the Homepage.
 
 
 * Future Implementations.
   * Levels (easy, medium, hard)
-  * A board that shows how many Questions are left, how many right and how many wrong Answers you gave.
+  * A board that shows how many Questions are left, how many right, and how many wrong answers you gave.
   
 ### Accessibility
 
 When writing the code, I tried to make the website as user-friendly and clear as possible. I have achieved this by:
 
 * Using semantic HTML.
-* Ensuring that there is a sufficient colour contrast throughout the site.
+* Ensuring that there is a sufficient color contrast throughout the site.
 
 - - -
 
@@ -148,7 +148,7 @@ When writing the code, I tried to make the website as user-friendly and clear as
 
 ### Languages Used
 
-HTML, CSS and Java Script were used to create this website.
+HTML, CSS, and Java Script were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
@@ -156,7 +156,7 @@ Git - For version control.
 
 Github - To save and store the files for the website.
 
-Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+Google Dev Tools - To troubleshoot and test features, and solve issues with responsiveness and styling.
 
 - - -
 
@@ -164,13 +164,13 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 ### Deployment
 
-Github Pages was used to deploy the live website. The instructions to achieve this are below:
+GitHub Pages were used to deploy the live website. The instructions to achieve this are below:
 
-1. Log in (or sign up) to Github.
+1. Login (or sign up) to Github.
 2. Find the repository for this project, Code-Institute-Projekt-2-CSS-HTML-JavaScript.
 3. Click on the Settings link.
-4. Click on the Pages link in the left hand side navigation bar.
-5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+4. Click on the Pages link in the left-hand side navigation bar.
+5. In the Source section, choose main from the drop-down select branch menu. Select Root from the drop-down select folder menu.
 6. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
 ### Local Development
@@ -179,9 +179,9 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 To clone the Code-Institute-Projekt-2-CSS-HTML-JavaScript repository:
 
-1. Log in (or sign up) to GitHub.
+1. Login (or sign up) to GitHub.
 2. Go to the repository for this project, MrHaJu/Code-Institute-Projekt-2-CSS-HTML-JavaScript.
-3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH, or GitHub CLI, and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
@@ -204,7 +204,7 @@ Please view the [testing.md](testing.md) file for more information on the testin
 
 ### Content
 
-Content of the website was written by the owner (Andreas Huppertz)
+The content of the website was written by the owner (Andreas Huppertz)
 
 ### Acknowledgments
 
