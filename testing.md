@@ -1,6 +1,6 @@
-# Code Institute Projekt 1 HTML and CSS - TESTING
+# Code Institute Project 2 HTML, CSS, and JavaScript
  
- ## My Portfolio Website
+ ## My JavaScript Quiz
 
  ![View on multiple screens](./assets/images/view-on-multiple-screens.png)
  
@@ -28,7 +28,7 @@
 
 ## AUTOMATED TESTING
 
-Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
+Testing was ongoing throughout the entire build. I utilized Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
 
 
@@ -54,7 +54,7 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 ### Json Validator
 
-[jsonlint.com](https://jsonlint.com/) was used to validate the Json Data.
+[jsonlint.com](https://jsonlint.com/) was used to validate the JSON Data.
 
 * [questions.json](assets/images/testing/jsonlint/jsonlintquestions.png)
 
@@ -63,7 +63,7 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 ### Lighthouse
 
-I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices, and SEO of the website.
 
 lighthouse testing :
 * #### Desktop:
@@ -95,9 +95,9 @@ lighthouse testing :
 
 | Bug No | Bug Issue | How Resolved |
 | :--- | :--- | :--- |
-| 1 | On mobile devices, the app was a little off center to the right. | with justify content, this problem was solved |
-| 2 | getting the Player Name from index Page to the Score Page called an issue so the questions couldn´t load | putting the Player Name in local storage and call it with get playername solved the problem |
-| 3 | instead of retrieving the questions in the Scripts.js, saving the questions in the questions.json resulted in the questions no longer being displayed | solved with an asynchronous function and await fetch |
+| 1 | On mobile devices, the app was a little off-center to the right. | With justify-content, this problem was solved |
+| 2 | Getting the Player Name from the index Page to the Score Page called an issue so the questions couldn´t load | Putting the Player Name in local storage and calling it with get player name solved the problem |
+| 3 | Instead of retrieving the questions in the Scripts.js, saving the questions in the questions.json resulted in the questions no longer being displayed | solved with an asynchronous function and await fetch |
 | 4 | the same questions were always loaded | solved with a function (.sort, .slice) |
 
 
@@ -116,11 +116,11 @@ lighthouse testing :
 
 Full testing was performed on the following devices, and additional testing for other devices was carried out using developer tools:
 
-Desktop PC Windows 11, Samsung S20 Ultra, 46 inch monitor, 43 inch Ultra Wide 4k monitor, 27 inch monitor, windows 10 17 inch laptop, Asus Zen Phone, I Mac.
+Desktop PC Windows 11, Samsung S20 Ultra, 46-inch monitor, 43-inch Ultra Wide 4k monitor, 27-inch monitor, windows 10 17-inch laptop, Asus Zen Phone, I Mac.
 
 Each device tested the site using the following browsers:
 
-Google Chrome and Microsoft edge on Windows and Android. Safari on Mac
+Google Chrome and Microsoft Edge on Windows and Android. Safari on Mac
 
 
 
@@ -134,19 +134,19 @@ Google Chrome and Microsoft edge on Windows and Android. Safari on Mac
 |  |  |  |  |  |
 | `Quiz Page` |  |  |  |  |
 | Button Hover  | When hover over Buttons it will change colour | Hovered over Button | colour changed | Pass |
-| click right Answer | When click right answer button colour changes to Green.  | click right answer | Button changes to green | Pass |
-| click wrong Answer | When click wrong answer button colour changes to light red.  | click wrong answer | Button changes to light red | Pass |
+| click right Answer | When clicking the right answer button color changes to Green.  | click right answer | Button changes to green | Pass |
+| Click the wrong Answer | When clicking the wrong answer button color changes to light red.  | click wrong answer | Button changes to light red | Pass |
 | Next Button click | When click on Next Button, the next Question appears | clicked on Next Button | next Question appears | Pass |
 | Next Button | Next Button only appears if any Answer is chosen | choose Answer | Next Button appears | Pass |
-| No click | if any Answer is chosen, you are not allowed to click anything but Next Button | choose Answer | Only Next Button is clickable | Pass |
+| No click | If any Answer is chosen, you are not allowed to click anything but Next Button | choose Answer | Only Next Button is clickable | Pass |
 |  |  |  |  |  |
 | `Instruction Page` |  |  |  |  |
-| Back Button | When click on Back Button, it returns to Index Page | Click Back Button | head back to Index Page  | Pass |
+| Back Button | When clicking on Back Button, it returns to Index Page | Click Back Button | Head back to Index Page  | Pass |
 |  |  |  |  |  |
 | `Score Board` |  |  |  |  |
-| Score | after finsishing 10 Questions, Score Boar is loaded, shows Score and beneath Score, Play Again Button and End Game Button is shown | finish 10 Questions | Score, Play Again Button and End Game Button is shown | Pass |
-| Click Play Again Button | If click on Play Again, a new Game with 10 Question starts | click Play Again button | New Game started | Pass |
-| Click End Game Button | If click End Game Button, Game ends and head back to Enter Player Name (Index Page) | click End Game button | Game ends and head back to Enter Player Name (Index Page) | Pass |
+| Score | After finishing 10 Questions, Score Boar is loaded, shows Score, and beneath Score, Play Again Button and End Game Button is shown | Finish 10 Questions | Score, Play Again Button and End Game Button is shown | Pass |
+| Click Play Again Button | If click on Play Again, a new Game with 10 Questions starts | Click Play Again button | New Game started | Pass |
+| Click End Game Button | If click End Game Button, the Game ends and head back to Enter Player Name (Index Page) | Click End Game button | Game ends and head back to Enter Player Name (Index Page) | Pass |
 |  |  |  |  |  |
 
 ---
@@ -176,7 +176,7 @@ Google Chrome and Microsoft edge on Windows and Android. Safari on Mac
 | Edge | Mobile | ✔️ |
 | Firefox | Desktop | ✔️ |
 | Firefox | Mobile | ✔️ |
-| Safari (iOS/iPadOS) | Mobile |  ✔️ |
+| Safari (iOS/iPad-OS) | Mobile |  ✔️ |
 | Safari | Desktop | ✔️ |
 
 ---
